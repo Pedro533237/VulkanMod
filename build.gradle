@@ -35,7 +35,7 @@ dependencies {
 	includeModule("fabric-rendering-v1")
 	includeModule("fabric-renderer-api-v1")
 	includeModule("fabric-rendering-fluids-v1")
-	includeModule("fabric-block-view-api-v2")
+	includeModule("fabric-block-getter-api-v2")
 	includeModule("fabric-lifecycle-events-v1")
 	includeModule("fabric-transitive-access-wideners-v1")
 }
