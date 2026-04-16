@@ -17,7 +17,7 @@ loom {
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings loom.officialMojangMappings()
+	
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API.
@@ -40,7 +40,7 @@ dependencies {
 	includeModule("fabric-transitive-access-wideners-v1")
 }
 
-project.ext.lwjglVersion = "3.3.3"
+project.ext.lwjglVersion = "3.4.1"
 project.ext.jomlVersion = "1.10.4"
 project.ext.winNatives = "natives-windows"
 project.ext.linuxNatives = "natives-linux"
